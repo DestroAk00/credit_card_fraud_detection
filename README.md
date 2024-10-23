@@ -22,11 +22,9 @@ Data source:
 Click on this link to access the worked on data source: https://drive.google.com/uc?export=download&id=19CiFPjqNSWpO542EsZVPerk3LjokZvWR
 
 **Steps:** 
-1. The first step to start this project is to download the files for which link is  provided above 
-
+1. The first step to start this project is to download the files for which link is provided above, just keep in mind to store the file in your location and execute code with you path.
 2. Make sure to have the library already installed for the respective version if not then you can use this code:  
 !pip install pandas==2.1.4 numpy==1.26.4 matplotlib==3.8.0 scikit-learn==1.2.2 
-
 3. Execute the code from Credit_card_fraud_detection file located in code folder. 
 Data Source: 
 Our data source consists following details: 
@@ -48,5 +46,6 @@ performs oversampling to address class imbalance.
 3. Hyperparameter Tuning: Uses GridSearchCV to find the best hyperparameters for the model. 
 4. Model Evaluation: Evaluates the model's performance on test data
 
-**Result**
+**Result:**
+
 After execution of the fully we can check the accuracy score with train data is 95.80% and test data is 93.90% approx
